@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mainscreen_drawer.xml",
+        "source": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\src\\main\\res\\menu\\mainscreen_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer.xml",
+        "source": "C:\\Users\\Ahmed\\Downloads\\CRM\\app\\src\\main\\res\\menu\\drawer.xml"
+    }
+]

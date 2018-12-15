@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+        android:id="@+id/nav_mainscreen_dashboard"
+        android:checked="true"
+        android:title="Dashboard"
+        />
+        <item
+            android:id="@+id/nav_mainscreen_mydevice"
+            android:checked="true"
+            android:title="My Devices"
+            />
+        <item
+            android:id="@+id/nav_mainscreen_mycomplaint"
+            android:checked="true"
+            android:title="My Complaint"
+            />
+        <item
+            android:id="@+id/nav_mainscreen_visits"
+            android:checked="true"
+            android:title="Visits"
+            />
+
+        <item
+            android:id="@+id/nav_mainscreen_setting"
+            android:checked="true"
+            android:title="Settings"
+            />
+        <item
+            android:id="@+id/nav_mainscreen_logout"
+            android:checked="true"
+            android:title="Logout"
+            />
+
+    </group>
+
+</menu>

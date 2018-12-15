@@ -1,0 +1,144 @@
+<!--
+  ~ Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     https://mindorks.com/license/apache-v2
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+    <string name="app_name">CRM</string>
+    <string name="request">انشاء طلب جديد</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--Toolbar menus-->
+    <string name="clear">Clear</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+
+    <!--Drawer-->
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+
+    <!--Drawer Menus-->
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="feed">My Feed</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <!--Login-->
+    <string name="login_dummy">CRM</string>
+    <string name="Instant">Instant Maintenance</string>
+    <string name="text_login">login to receive realtime notifications</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="text_user_account">Use your current account</string>
+    <string name="user_name_login">User Name</string>
+    <string name="et_password">Password</string>
+    <string name="txt_forgot">Forgot password?</string>
+
+
+    <!--register-->
+    <string name="client_spinner">- Select Type -</string>
+    <string name="firstname">Name Arabic</string>
+    <string name="last_name">Name English</string>
+    <string name="user_name">User Name</string>
+    <string name="address">Your Address</string>
+    <string name="company_name">Company Name</string>
+    <string name="userName">E-mail</string>
+    <string name="mobile1">+20 Mobile No.</string>
+    <string name="mobile2">+20 Mobile No.2</string>
+    <string name="landline1">LandLine1</string>
+    <string name="landline2">LandLine2</string>
+    <!--<string name="address">Put Your Address Here</string>-->
+    <string name="password">Password</string>
+    <string name="note">Note</string>
+    <string name="register">Register</string>
+
+    <!--request-->
+    <string name="client_name">اسم العميل</string>
+    <string name="choose_client">..اختر العميل..</string>
+    <string name="txt_device">الجهاز</string>
+    <string name="choose_device">..اختر الجهاز..</string>
+    <string name="device_name">اسم الجهاز</string>
+    <string name="problem">المشكله</string>
+    <string name="comment">التعليقات</string>
+    <string name="choose_problem">اختر نوع المشكله</string>
+    <string name="first_time">ميعاد اول</string>
+    <string name="request_time">تاريخ الطلب</string>
+    <string name="third_time">ميعاد ثالث</string>
+    <string name="second_time">ميعاد ثانى</string>
+    <string name="choose_repeat_problem">..اختر نوع تكرار المشكله..</string>
+    <string name="repeat_problem">تكرار المشكله</string>
+    <string name="inside_guaranty">داخل الضمان</string>
+    <string name="guaranty_start_date">تاريخ بداية الضمان</string>
+    <string name="choose_guaranty_type">..اختر نوع الضمان..</string>
+    <string name="guaranty_type"> نوع الضمان</string>
+    <string name="agreement">تعاقد</string>
+    <string name="choose_agreement_type">..اختر نوع العقد..</string>
+    <string name="agreement_type">نوع العقد</string>
+    <string name="notes">ملاحظات</string>
+    <string name="btn_request">قدم الطلب الان</string>
+
+    <!--mycomplaints-->
+    <string name="txt_Complaint_No.">Complaint No.</string>
+    <string name="txt_device_name">Device Name</string>
+
+    <!--Login Validation-->
+    <string name="empty_email">من فضلك ادخل اسم المستخدم</string>
+    <string name="invalid_email">Please provide a valid userName.</string>
+    <string name="empty_password">من فضلك ادخل الرقم السرى</string>
+
+
+    <!--about fragment-->
+    <string name="project_info">This sample app implements MVP architecture using Dagger2, GreenDao, RxJava, FastAndroidNetworking and PlaceholderView</string>
+    <string name="link_mvp_blog">1. https://blog.mindorks.com</string>
+    <string name="link_mvp_repo">2. https://github.com/MindorksOpenSource/android-mvp-architecture</string>
+    <string name="link_mindorks_blog">3. https://blog.mindorks.com</string>
+    <string name="link_mindorks_repo">4. https://github.com/MindorksOpenSource</string>
+    <string name="version">"version"</string>
+
+    <!--rating dialog-->
+    <string name="rate_us">Rate Us</string>
+    <string name="rating_message">Please let us know, how can we improve ourselves?</string>
+    <string name="rating_play_store_redirect_message_line_1">Awesome! Thank you for the 5 stars.</string>
+    <string name="rating_play_store_redirect_message_line_2">Please help others, in knowing some good things about this app.</string>
+    <string name="rating_play_store_text">Rate us on Play Store</string>
+    <string name="rating_not_provided_error">Please provide us stars.</string>
+    <string name="rating_thanks">Thank you!</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+
+    <!--button-->
+    <string name="later">Later</string>
+    <string name="submit">Submit</string>
+
+    <!--feed-->
+    <string name="title">My Feed</string>
+    <string name="open_source">Open Source</string>
+    <string name="blog">Blog</string>
+
+    <!--empty state-->
+    <string name="empty_screen">We do not have anything\nhere right now.</string>
+    <string name="please_retry">Please Retry</string>
+    <string name="retry">Retry</string>
+
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    android:orientation="vertical"
+    android:padding="@dimen/_2sdp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/clientspinner"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="@dimen/_26sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:background="@color/white"
+                app:hintText="@string/client_spinner"
+                android:layout_marginTop="@dimen/_8sdp"/>
+
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="@dimen/_296sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:hint="@string/firstname"
+                android:singleLine="true"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:gravity="start"
+                />
+
+            <EditText
+                android:id="@+id/et_lastname"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:hint="@string/last_name"
+                android:singleLine="true"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+            <EditText
+                android:id="@+id/et_user_name"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:hint="@string/user_name"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:singleLine="true"
+                android:background="@color/white"
+                android:hint="@string/address"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+            <EditText
+                android:id="@+id/et_company_name"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:hint="@string/company_name"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:hint="@string/userName"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+
+
+                <EditText
+                    android:id="@+id/et_mobile1"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:background="@color/white"
+                    android:hint="@string/mobile1"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+
+                <EditText
+                    android:id="@+id/et_mobile2"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    android:singleLine="true"
+                    android:hint="@string/mobile2"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+
+                <EditText
+                    android:id="@+id/et_landline1"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    android:hint="@string/landline1"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+                <EditText
+                    android:id="@+id/et_landline2"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:singleLine="true"
+                    android:background="@color/white"
+                    android:hint="@string/landline2"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+                <EditText
+                    android:id="@+id/et_note"
+                    android:layout_width="@dimen/_300sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@color/white"
+                    android:hint="@string/note"
+                    android:padding="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_10sdp" />
+
+            <EditText
+                android:id="@+id/et_password_register"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/white"
+                android:singleLine="true"
+                android:hint="@string/password"
+                android:padding="@dimen/_5sdp"
+                android:paddingStart="@dimen/_10sdp" />
+
+            <Button
+                android:id="@+id/btn_registration"
+                android:layout_width="@dimen/_300sdp"
+                android:layout_height="@dimen/_36sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:text="@string/register" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
